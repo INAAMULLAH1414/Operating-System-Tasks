@@ -20,13 +20,13 @@ int main()
 	else
 	{
 		cpid = fork();
-		
+
 		if (cpid == -1)
 		{
 			printf("Fork failed\n");
 			exit(1);
 		}
-		
+
 		if (cpid == 0)
 		{
 			printf("Hello! I am child and my PID is:%ld\n", (long)getpid());
@@ -35,9 +35,9 @@ int main()
 		{
 			wait(NULL);
 			wait(NULL);
-			printf("Hello I am parent and my PID is:%ld\n",(long)getpid());
+			printf("Hello I am parent and my PID is:%ld\n", (long)getpid());
 		}
 	}
-	
+
 	return 0;
 }
