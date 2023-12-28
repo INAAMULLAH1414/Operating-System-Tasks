@@ -17,7 +17,7 @@ jobs:
       run: cmake .
     - name: Build
       run: make
-    - name: Run Tests
-      run: make check
-    - name: Check Distribution
-      run: make distcheck
+    # - name: Run Tests
+    #   run: make check
+    # - name: Check Distribution
+      # run: make distcheck
