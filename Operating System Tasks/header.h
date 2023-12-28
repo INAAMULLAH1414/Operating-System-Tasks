@@ -1,4 +1,4 @@
-//myheader.h (FIFOs)
+//header.h (FIFOs)
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

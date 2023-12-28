@@ -1,5 +1,6 @@
 // client.c (FIFOs)
-#include "myheader.h"
+#include "header.h"
+
 int main()
 {
 	char buff[1024];
