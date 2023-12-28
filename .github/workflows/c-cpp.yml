@@ -13,11 +13,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: configure
-      run: ./configure
-    - name: make
+    - name: Set up CMake
+      run: cmake .
+    - name: Build
       run: make
-    - name: make check
+    - name: Run Tests
       run: make check
-    - name: make distcheck
+    - name: Check Distribution
       run: make distcheck
