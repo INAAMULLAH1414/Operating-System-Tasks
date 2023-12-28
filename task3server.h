@@ -1,6 +1,7 @@
 // server.c (FIFOs)
 #include "header.h"
-int main()
+
+int task3server()
 {
 	char buff[1024];
 	int readfd, writefd, n, size;

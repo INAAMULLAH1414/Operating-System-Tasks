@@ -2,7 +2,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-int main()
+int task1()
 {
 	int cpid;
 	cpid = fork();
