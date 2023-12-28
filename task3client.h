@@ -1,7 +1,7 @@
 // client.c (FIFOs)
 #include "header.h"
 
-int main()
+int task3client()
 {
 	char buff[1024];
 	int readfd, writefd, n, size;

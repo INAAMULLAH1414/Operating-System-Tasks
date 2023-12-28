@@ -9,7 +9,7 @@
 
 int isPalindrome(char str[]);
 
-int main()
+int task2()
 {
 	int fd1[2];
 	int fd2[2];
